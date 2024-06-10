@@ -16,37 +16,41 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/qrCode.png)
+![](./images/qrCodeBootstrap.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/GabrielaGuayara/qrCodeChallenge)
-- Live Site URL: [Website URL](https://qrchallenge-gabrielaguayara.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/GabrielaGuayara/qrCodeWithBootstrap)
+- Live Site URL: [Website URL](https://qrcodewithbootstrap.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- Inline CSS
+- Bootstrap
 
 
 ### What I learned
 
-I learned how to embeded font-styles from Google fonts. 
+I learned how to implement Bootstrap into my HTML file. I also learned how to use Bootstrap layouts and components.
 
-```css
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+```html
+<head>
+  ...
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-body{
+</head>
+<body>
 
-  font-family: "Outfit", sans-serif;
+  ...  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 
-}
 ```
 
 ## Author
 Gabriela Guayara
-- Website - [QR Code Challenge](https://qrchallenge-gabrielaguayara.netlify.app/)
+- Website - [QR Code Challenge With Bootstrap](https://qrcodewithbootstrap.netlify.app/)
 
